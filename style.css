@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 20px;
+    color: black;
+}
+.box-container-1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: coral;
+}
+.item1 {
+    background-color: darkgray;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.row-space {
+    display: flex;
+    justify-content: space-between;
+}
+.column-center {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    align-items: center;
+}
+.item2 {
+    background-color: yellow;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
